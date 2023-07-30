@@ -1,0 +1,25 @@
+@import '../../../styles/abstracts/variables.scss';
+
+.edit-view {
+  display: flex;
+  padding: $padding;
+  gap: $padding;
+  align-items: center;
+
+  & .button {
+    min-width: 8rem;
+  }
+}
+
+.edit-view__input-color {
+  padding: 0;
+}
+
+.edit-view__input-text {
+  font-size: $input-text-font-size;
+  height: 2.5rem;
+}
+
+.edit-view__input-text:invalid {
+  border: 2px solid red;
+}

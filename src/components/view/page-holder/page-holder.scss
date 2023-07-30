@@ -1,0 +1,10 @@
+@import '../../../styles/abstracts/variables.scss';
+
+.page-holder {
+  width: $section-max-width;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  padding: $padding;
+}

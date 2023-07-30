@@ -1,0 +1,8 @@
+@import '../../../styles/abstracts/variables.scss';
+
+.paginator {
+  display: flex;
+  padding: $padding;
+  padding-top: 4 * $padding;
+  gap: $padding;
+}

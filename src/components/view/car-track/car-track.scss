@@ -1,0 +1,18 @@
+@import '../../../styles/abstracts/variables.scss';
+
+.car-track {
+  height: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: $padding;
+  border-bottom: 2px dashed $car-track-color;
+  background: url(../../../assets/images/racing-finish.svg) no-repeat;
+  background-position: center right 70px;
+  background-size: contain;
+
+  .car {
+    position: absolute;
+    left: 100px;
+  }
+}

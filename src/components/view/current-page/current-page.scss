@@ -1,0 +1,7 @@
+@import '../../../styles/abstracts/variables.scss';
+
+.current-page {
+  color: $current-page-color;
+  font-size: $current-page-font-size;
+  padding: $padding;
+}

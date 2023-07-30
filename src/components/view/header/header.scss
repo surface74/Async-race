@@ -1,0 +1,12 @@
+@import '../../../styles/abstracts/variables.scss';
+
+.header {
+  width: $section-max-width;
+  margin: auto;
+
+  & .nav {
+    display: flex;
+    padding: 2 * $padding $padding $padding;
+    gap: $padding;
+  }
+}
